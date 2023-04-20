@@ -1,4 +1,7 @@
-cuvant = "onomatopee"
+import random
+from lista_cuvinte import cuvinte_de_ghicit as lista_cuv
+# cuvant = "onomatopee"
+cuvant = random.choice(lista_cuv).lower()
 cuvant_initial = list(cuvant)
 litera_incercata = input("Alege o litera: ")
 for index, value in enumerate(cuvant_initial):
